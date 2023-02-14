@@ -1,0 +1,5 @@
+print('Nombre: Iván Alexander Ordoñez López')
+print('Edad: 17 años')
+print('Carnet: 1567523')
+print('Facultad de Ingeniería')
+print('Ingeniería en Sistemas')
