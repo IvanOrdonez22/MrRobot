@@ -1,5 +1,10 @@
-print('Nombre: Iván Alexander Ordoñez López')
-print('Edad: 17 años')
-print('Carnet: 1567523')
-print('Facultad de Ingeniería')
-print('Ingeniería en Sistemas')
+import os
+
+mi_ubicacion = os.getcwd()
+if os.path.exists("modulos"):
+    print("La carpeta ya existe")
+else:
+    os.mkdir(mi_ubicacion + "\\modulos")
+    archivo = open('./modulos/prueba.txt', 'w')
+    archivo.write('Hola mundo')
+    archivo.close()
